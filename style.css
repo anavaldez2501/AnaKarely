@@ -50,3 +50,21 @@ h1, h2 {
 #mainLeft {
     border-right: 1px solid lightgray;
 }
+
+/*COLUMNS*/
+
+.columns {
+    display: flex;
+}
+.columns > div {
+width: 100%;
+margin-left: 10px;
+margin-top: 10px;
+}
+.columns > div:first-child {
+margin-left: 0px;
+}
+
+.imagen {
+    width: 90vh;
+}
