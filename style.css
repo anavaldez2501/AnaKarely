@@ -1,17 +1,29 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14px;
-    max-width: 1050px;
-    margin: auto;
+:root {
+    --azul: #d8e2dc;
+    --verde: #D4E09B; 
+    --melon: #fec5bb;
+    --palo: #ffe5d9;
+    --cafe: #c7917d;
+    --gris: #484848;
+    --gris2: #605a5a;
+    --fondo: #F0EFF5;
+}
+  
+body { 
+    font-size: 14px; 
+    margin: auto;  
+    background: var(--fondo); 
+    
 }
 h1 {
     font-size: 3em;
     letter-spacing: .6em;
-    padding-top: 1em; 
+    padding-top: 1em;  
 }
 
 h2 {
     font-size: 1.5em; 
+    font-family: Comic Sans MS, Comic Sans, cursive;
 }
 main { 
     display: grid;
@@ -31,7 +43,9 @@ i {
 }
 
 p {
-    margin: .2em auto
+    margin: .2em auto;
+    font-size: 14px; 
+
 }
 
 hr {
@@ -63,7 +77,7 @@ h1, h2 {
 }
 
 .imagen {
-    width: 20em;
+    width: 33em;
     box-shadow: 6px 6px 10px #e0e0e0;
 }
 
@@ -82,4 +96,61 @@ h1, h2 {
 .titulo {
     color: #003a70;
     font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.cuadro {    
+    border-radius: 10px;
+    height: 30vh;
+    background-color: white;
+    padding: 3vh 3vw;
+    font-size: 2.8vh;
+    text-align: center;
+    margin: 0px auto; 
+    box-shadow: 5px 0 10px 5px #e0e0e0;
+    width: 40vw;
+    text-align: left;
+}
+.navbar-default {
+    background-color: white !important;
+}
+
+.navbar-fixed-left {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    border-radius: 0px;
+    }
+
+.contenedor {
+    padding: 4vw;
+    font-size: 14px; 
+}
+
+.imagenCircular {  
+    width:200px;
+    height:200px;
+    border-radius:150px;
+}
+.inicio {
+    background-color: #D4E09B;
+    color: white;
+    text-align: center;
+    height: 70vh;
+} 
+.btn-redondo {
+    border-radius: 10px;
+    background-color: #c7917d;
+}
+/* Responsivo */
+
+/* Diseño para celulares */ 
+
+@media screen and (max-width:480px){
+	body {
+		font-size:80%; 
+	} 
+    .columns {
+        display: block;
+    }
 }
