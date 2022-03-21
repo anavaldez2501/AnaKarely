@@ -1,9 +1,11 @@
 :root {
-    --azul: #aeceff;
+    --azul: #a9d6e5;
     --verde: #D4E09B; 
     --melon: #fec5bb;
     --palo: #ffe5d9;
     --cafe: #c7917d;
+    --naranja: #FEC89A;
+    --amarillo: #fbf8cc;
     --gris: #484848;
     --gris2: #605a5a;
     --fondo: #F0EFF5;
@@ -23,6 +25,7 @@ h1 {
 h2 {
     font-size: 1.5em; 
     font-family: Comic Sans MS, Comic Sans, cursive;
+    /* font-family: Snell Roundhand, cursive; */
 }
 main { 
     display: grid;
@@ -159,12 +162,12 @@ h1, h2 {
     padding-top: 1.5vh;
     background-image: url("./images/Fondo.png");
     background-repeat: no-repeat, repeat;
-    background-color: var(--verde);
+    background-color: var(--azul);
     background-size: 100%; 
 } 
 .btn-redondo {
     border-radius: 20px !important;
-    background-color: var(--verde) !important;
+    background-color: var(--azul) !important;
     border: none !important;
 }
 
