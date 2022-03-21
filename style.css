@@ -106,6 +106,13 @@ h1, h2 {
     text-align: center;
     box-shadow: 5px 0 10px 5px #e0e0e0;
 }
+.cuadroHabili {
+    border-radius: 10px;
+    padding: 3vh 3vw;
+    text-align: center;
+    box-shadow: 5px 0 10px 5px #e0e0e0;
+    margin-right: 10px;
+}
 
 .cuadroRectangular {    
     border-radius: 10px;
