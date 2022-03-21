@@ -87,6 +87,7 @@ h1, h2 {
 
 .marginImg {
     margin-bottom: 1em;
+    margin-right: 2vw;
 }
 
 .link {
@@ -163,7 +164,7 @@ h1, h2 {
 } 
 .btn-redondo {
     border-radius: 20px !important;
-    background-color: #c7917d !important;
+    background-color: var(--verde) !important;
     border: none !important;
 }
 
@@ -177,6 +178,9 @@ h1, h2 {
 }
 .cuadroPerfil {
     width: 40% ;
+}
+.acerca {
+    width: 50%;
 }
 
 /* Responsivo */
@@ -220,6 +224,9 @@ h1, h2 {
         margin-top: 8vh;
         width:30vw; 
         height:14vh;
+    }
+    .acerca {
+        width: 100%;
     }
 }
 
