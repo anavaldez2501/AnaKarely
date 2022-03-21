@@ -152,9 +152,9 @@ h1, h2 {
     background-size: 100%; 
 } 
 .btn-redondo {
-    border-radius: 20px !important;
-    background-color: #c7917d !important;
-    border: none !important;
+    border-radius: 20px ;
+    background-color: #c7917d;
+    border: none ;
 }
 
 .colorBorde {
@@ -162,18 +162,18 @@ h1, h2 {
 }
 
 .cuadroEstudios{
-    width: 30% !important;
+    width: 30% ;
     margin-right: 3vh;
 }
 .cuadroPerfil {
-    width: 40% !important;
+    width: 40% ;
 }
 
 /* Responsivo */
 
 /* Diseño para celulares */ 
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 620px){
 	body {
 		font-size:80%; 
 	} 
