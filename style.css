@@ -78,7 +78,7 @@ h1, h2 {
 }
 
 .imagen {
-    width: 30em;
+    width: 28em;
     box-shadow: 6px 6px 10px #e0e0e0;
 }
 
@@ -115,7 +115,7 @@ h1, h2 {
     box-shadow: 5px 0 10px 5px #e0e0e0;
     border-width:10px;
     border-left-style: solid;
-    border-left-color: #c7917d;
+    border-left-color: var(--verde);
 }
 
 .navbar-default {
