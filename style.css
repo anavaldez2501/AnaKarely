@@ -137,8 +137,18 @@ h1, h2 {
 .imagenCircular {  
     margin-top: 10vh;
     border-radius:150px;
-    width:100px;
-    height:100px;
+}
+.imagenPerfil {
+    margin-top: 0px; 
+    width:20vw;  
+    height:40vh;
+    border-radius:150px;
+
+}
+
+.imgValores {
+    width:16vw;
+    height:20vh;
 }
 .inicio {
     color: white;
@@ -160,6 +170,14 @@ h1, h2 {
  background-color: #c7917d;
 }
 
+.cuadroEstudios{
+    width: 30%;
+    margin-right: 3vh;
+}
+.cuadroPerfil {
+    width: 40%;
+}
+
 /* Responsivo */
 
 /* Diseño para celulares */ 
@@ -172,7 +190,23 @@ h1, h2 {
         display: block;
     }
     .imagen {
-        width: 25em;
+        width: 20em;
         box-shadow: 6px 6px 10px #e0e0e0;
+    }
+    .cuadroEstudios {
+        width: 100%;
+    }
+    .imgValores {
+        width:10em;
+        height:10em;
+    }
+    .cuadroPerfil {
+        width: 100%;
+        text-align: center;
+    }
+    .imagenPerfil {
+        margin-top: 0px; 
+        width:30vw;  
+        height:30vh;
     }
 }
