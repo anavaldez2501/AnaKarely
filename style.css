@@ -147,8 +147,8 @@ h1, h2 {
 }
 
 .imgValores {
-    width:16vw;
-    height:20vh;
+    width:18vw;
+    height:22vh;
 }
 .inicio {
     color: white;
@@ -171,11 +171,11 @@ h1, h2 {
 }
 
 .cuadroEstudios{
-    width: 30%;
+    width: 30% !important;
     margin-right: 3vh;
 }
 .cuadroPerfil {
-    width: 40%;
+    width: 40% !important;
 }
 
 /* Responsivo */
@@ -197,8 +197,8 @@ h1, h2 {
         width: 100%;
     }
     .imgValores {
-        width:10em;
-        height:10em;
+        width:13vw;
+        height:20vh;
     }
     .cuadroPerfil {
         width: 100%;
