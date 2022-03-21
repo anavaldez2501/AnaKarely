@@ -136,6 +136,8 @@ h1, h2 {
 
 .imagenCircular {   
     border-radius:150px;
+    width:20vw; 
+    height:25vh;
 }
 .imagenPerfil {
     margin-top: 0px; 
@@ -214,6 +216,8 @@ h1, h2 {
     .imagenCircular {   
         border-radius:150px;
         margin-top: 8vh;
+        width:40vw; 
+        height:25vh;
     }
 }
 
