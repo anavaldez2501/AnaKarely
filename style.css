@@ -162,7 +162,7 @@ h1, h2 {
 }
 
 .cuadroEstudios{
-    width: 30% ;
+    width: 30% !important;
     margin-right: 3vh;
 }
 .cuadroPerfil {
