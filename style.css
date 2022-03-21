@@ -178,7 +178,7 @@ h1, h2 {
 		font-size:80%; 
 	} 
     .columns {
-        display: block;
+        display: block !important;
     }
     .imagen {
         width: 20em;
@@ -192,8 +192,8 @@ h1, h2 {
         height:20vh;
     }
     .cuadroPerfil {
-        width: 100%;
-        text-align: center;
+        width: 100% !important;
+        text-align: center !important;
     }
     .imagenPerfil {
         margin-top: 0px; 
