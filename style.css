@@ -204,3 +204,36 @@ h1, h2 {
         background-size: 140%;
     }
 }
+
+
+@media screen and (max-width:390px){
+	body {
+		font-size:80%; 
+	} 
+    .columns {
+        display: block !important;
+    }
+    .imagen {
+        width: 20em;
+        box-shadow: 6px 6px 10px #e0e0e0;
+    }
+    .cuadroEstudios {
+        width: 100% !important;
+    }
+    .imgValores {
+        width:13vw;
+        height:20vh;
+    }
+    .cuadroPerfil {
+        width: 100% !important;
+        text-align: center !important;
+    }
+    .imagenPerfil {
+        margin-top: 0px !important; 
+        width:30vw !important;  
+        height:30vh !important;
+    }
+    .inicio{
+        background-size: 140%;
+    }
+}
