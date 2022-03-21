@@ -1,5 +1,5 @@
 :root {
-    --azul: #c9daf3;
+    --azul: #aeceff;
     --verde: #D4E09B; 
     --melon: #fec5bb;
     --palo: #ffe5d9;
@@ -152,9 +152,9 @@ h1, h2 {
     background-size: 100%; 
 } 
 .btn-redondo {
-    border-radius: 20px ;
-    background-color: #c7917d;
-    border: none ;
+    border-radius: 20px !important;
+    background-color: #c7917d !important;
+    border: none !important;
 }
 
 .colorBorde {
