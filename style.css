@@ -91,7 +91,7 @@ h1, h2 {
 }
 
 .link {
-    color: var(--cafe);
+    color: black;
     text-decoration: none;
 }
 .titulo {
@@ -135,9 +135,10 @@ h1, h2 {
 }
 
 .imagenCircular {  
-    width:200px;
-    height:200px;
+    margin-top: 10vh;
     border-radius:150px;
+    width:100px;
+    height:100px;
 }
 .inicio {
     color: white;
