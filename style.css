@@ -11,8 +11,7 @@
   
 body { 
     font-size: 14px; 
-    margin: auto;  
-    background: var(--fondo); 
+    margin: auto;   
     
 }
 h1 {
@@ -118,16 +117,9 @@ h1, h2 {
     border-left-color: var(--verde);
 }
 
-.navbar-default {
+.navbar {
     background-color: white !important;
 }
-
-.navbar-fixed-left {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    border-radius: 0px;
-    }
 
 .contenedor {
     padding: 4vw;
@@ -143,7 +135,6 @@ h1, h2 {
     width:20vw;  
     height:40vh;
     border-radius:150px;
-
 }
 
 .imgValores {
