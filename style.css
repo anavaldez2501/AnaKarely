@@ -188,7 +188,7 @@ h1, h2 {
         width: 100% !important;
     }
     .imgValores {
-        width:13vw;
+        width:45vw;
         height:20vh;
     }
     .cuadroPerfil {
@@ -197,8 +197,9 @@ h1, h2 {
     }
     .imagenPerfil {
         margin-top: 0px !important; 
-        width:30vw !important;  
+        width:60vw !important;  
         height:30vh !important;
+        margin-bottom: 4vh;
     }
     .inicio{
         background-size: 140%;
