@@ -78,7 +78,7 @@ h1, h2 {
 }
 
 .imagen {
-    width: 33em;
+    width: 30em;
     box-shadow: 6px 6px 10px #e0e0e0;
 }
 
@@ -147,8 +147,7 @@ h1, h2 {
     background-image: url("./images/Fondo.png");
     background-repeat: no-repeat, repeat;
     background-color: #cccccc;
-    background-size: 100%;
-    back
+    background-size: 100%; 
 } 
 .btn-redondo {
     border-radius: 20px !important;
