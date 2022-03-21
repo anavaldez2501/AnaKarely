@@ -173,7 +173,7 @@ h1, h2 {
 
 /* Diseño para celulares */ 
 
-@media screen and (max-width:480px){
+@media screen and (max-width:390px){
 	body {
 		font-size:80%; 
 	} 
