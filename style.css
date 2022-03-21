@@ -196,9 +196,9 @@ h1, h2 {
         text-align: center !important;
     }
     .imagenPerfil {
-        margin-top: 0px; 
-        width:30vw;  
-        height:30vh;
+        margin-top: 0px !important; 
+        width:30vw !important;  
+        height:30vh !important;
     }
     .inicio{
         background-size: 140%;
