@@ -157,7 +157,7 @@ h1, h2 {
     padding-top: 1.5vh;
     background-image: url("./images/Fondo.png");
     background-repeat: no-repeat, repeat;
-    background-color: #cccccc;
+    background-color: var(--verde);
     background-size: 100%; 
 } 
 .btn-redondo {
@@ -208,5 +208,8 @@ h1, h2 {
         margin-top: 0px; 
         width:30vw;  
         height:30vh;
+    }
+    .inicio{
+        background-size: 140%;
     }
 }
