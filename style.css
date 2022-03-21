@@ -1,5 +1,5 @@
 :root {
-    --azul: #d8e2dc;
+    --azul: #c9daf3;
     --verde: #D4E09B; 
     --melon: #fec5bb;
     --palo: #ffe5d9;
@@ -113,6 +113,9 @@ h1, h2 {
     background-color: white;
     padding: 3vh 3vw;
     box-shadow: 5px 0 10px 5px #e0e0e0;
+    border-width:10px;
+    border-left-style: solid;
+    border-left-color: #c7917d;
 }
 
 .navbar-default {
@@ -137,16 +140,26 @@ h1, h2 {
     border-radius:150px;
 }
 .inicio {
-    background-color: #D4E09B;
     color: white;
     text-align: center;
     height: 70vh;
     padding-top: 1.5vh;
+    background-image: url("./images/Fondo.png");
+    background-repeat: no-repeat, repeat;
+    background-color: #cccccc;
+    background-size: 100%;
+    back
 } 
 .btn-redondo {
-    border-radius: 10px;
-    background-color: #c7917d;
+    border-radius: 20px !important;
+    background-color: #c7917d !important;
+    border: none !important;
 }
+
+.colorBorde {
+ background-color: #c7917d;
+}
+
 /* Responsivo */
 
 /* Diseño para celulares */ 
@@ -157,5 +170,9 @@ h1, h2 {
 	} 
     .columns {
         display: block;
+    }
+    .imagen {
+        width: 25em;
+        box-shadow: 6px 6px 10px #e0e0e0;
     }
 }
