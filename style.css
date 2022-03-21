@@ -115,6 +115,7 @@ h1, h2 {
     border-width:10px;
     border-left-style: solid;
     border-left-color: var(--verde);
+    margin-bottom: 20px;
 }
 
 .navbar {
