@@ -24,7 +24,7 @@ h1 {
 
 h2 {
     font-size: 1.8em; 
-    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* font-family: Snell Roundhand, cursive; */
 }
 main { 
@@ -145,14 +145,13 @@ h1, h2 {
 
 .imagenCircular {   
     border-radius:150px;
-    width:12vw; 
-    height:25vh;
+    height:20vh;
+    /* width: 10vw; */
     margin-top: 10vh;
 }
 .imagenPerfil {
-    margin-top: 0px; 
-    width:10vw;  
-    height:21vh;
+    margin-top: 0px;   
+    height:15vh;
     border-radius:150px;
 }
 
