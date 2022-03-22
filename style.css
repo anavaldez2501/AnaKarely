@@ -23,8 +23,8 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5em; 
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 1.8em; 
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
     /* font-family: Snell Roundhand, cursive; */
 }
 main { 
@@ -116,6 +116,10 @@ h1, h2 {
     text-align: center;
     box-shadow: 5px 0 10px 5px #e0e0e0;
     margin-right: 10px;
+    border-width:10px;
+    border-left-style: solid;
+    border-left-color: var(--cafe);
+    margin-bottom: 20px;
 }
 
 .cuadroRectangular {    
@@ -169,6 +173,7 @@ h1, h2 {
     border-radius: 20px !important;
     background-color: var(--verde) !important;
     border: none !important;
+    font-weight: 500 !important;
 }
 
 .colorBorde {
@@ -202,7 +207,7 @@ h1, h2 {
         display: block !important;
     }
     .imagen {
-        width: 20em;
+        width: 7vw;
         box-shadow: 6px 6px 10px #e0e0e0;
     }
     .cuadroEstudios {
