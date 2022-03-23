@@ -118,7 +118,7 @@ h1, h2 {
     margin-right: 10px;
     border-width:10px;
     border-left-style: solid;
-    border-left-color: var(--cafe);
+    border-left-color: var(--verde);
     margin-bottom: 20px;
 }
 
@@ -161,7 +161,7 @@ h1, h2 {
 .inicio {
     color: white;
     text-align: center;
-    height: 70vh;
+    height: 60vh;
     padding-top: 1.5vh;
     background-image: url("./images/Fondo.png");
     background-repeat: no-repeat, repeat;
