@@ -150,7 +150,7 @@ h1, h2 {
 }
 .imagenPerfil {
     margin-top: 0px;   
-    height:20vh;
+    height:25vh;
     border-radius:150px;
 }
 
@@ -185,6 +185,7 @@ h1, h2 {
 }
 .cuadroPerfil {
     width: 40% ;
+    text-align: center;
 }
 .acerca {
     width: 50%;
