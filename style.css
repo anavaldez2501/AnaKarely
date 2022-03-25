@@ -244,4 +244,49 @@ h1, h2 {
     }
 }
 
+/*  paginas tablets  */
+
+@media only screen and (max-width: 950px){
+	body {
+		font-size:80%; 
+	} 
+    .columns {
+        display: block !important;
+    }
+    .imagen {
+        width: 60vw;
+        box-shadow: 6px 6px 10px #e0e0e0;
+    }
+    .cuadroEstudios {
+        width: 100% !important;
+    }
+    .imgValores {
+        width:45vw;
+        height:20vh;
+    }
+    .cuadroPerfil {
+        width: 100% !important;
+        text-align: center !important;
+    }
+    .imagenPerfil {
+        margin-top: 0px !important;  
+        height:15vh !important;
+        margin-bottom: 4vh;
+    }
+    .inicio{
+        background-size: 190%;
+        height: 70vh;
+    }
+    .imagenCircular {   
+        border-radius:150px;
+        margin-top: 8vh;
+        height:30vh;
+    }
+    .acerca {
+        width: 100%;
+    }
+    .cuadroPerfil{
+        width: 100%;
+    }
+}
 
