@@ -80,7 +80,7 @@ h1, h2 {
 } */
 
 .imagen {
-    width: 28vw;
+    width: 25vw;
     box-shadow: 6px 6px 10px #e0e0e0;
 }
 
@@ -89,8 +89,8 @@ h1, h2 {
 }
 
 .marginImg {
-    margin-bottom: 1em;
-    margin-right: 2vw;
+    margin-bottom: 2em;
+    margin-right: 3vw;
 }
 
 .link {
