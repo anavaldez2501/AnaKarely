@@ -156,7 +156,6 @@ h1, h2 {
 
 .imgValores {
     width:14vw;
-    height:23vh;
 }
 .inicio {
     color: white;
@@ -215,7 +214,6 @@ h1, h2 {
     }
     .imgValores {
         width:45vw;
-        height:20vh;
     }
     .cuadroPerfil {
         width: 100% !important;
